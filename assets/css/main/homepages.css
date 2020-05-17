@@ -1053,7 +1053,7 @@ body {
   position: relative;
   display: inline-block;
   color: #9da1a5;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 35px;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -3343,7 +3343,7 @@ textarea {
 }
 
 .maintitle {
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -4368,7 +4368,7 @@ span#typed-slide-1 {
 #contact .contact-block span {
   font-size: 14px;
   margin: 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
 #contact .contact-block:last-child {
   margin-bottom: 0;
