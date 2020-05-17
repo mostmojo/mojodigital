@@ -1488,7 +1488,7 @@ body {
   top: 18px;
 }
 .navbar-wrapper .mainmenunav .navbar .navbar-collapse li:hover p {
-  color: #ff3d4f;
+  color: #f7971c;
 }
 .navbar-wrapper .mainmenunav .navbar .navbar-collapse li .nav-link {
   font-family: "Nunito";
@@ -1510,7 +1510,7 @@ body {
   white-space: nowrap;
 }
 .navbar-wrapper .mainmenunav .navbar .navbar-collapse li .nav-link:hover {
-  color: #ff3d4f;
+  color: #f7971c;
 }
 .navbar-wrapper .mainmenunav .navbar .navbar-collapse li:last-child {
   margin: 0px;
