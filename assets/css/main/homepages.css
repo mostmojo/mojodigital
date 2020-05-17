@@ -536,9 +536,9 @@ body {
 }
 #footer .copyright {
   height: 100%;
-  display: flex;
+  /* display: flex;
   text-align: left;
-  align-items: center;
+  align-items: center; */
 }
 @media (max-width: 767px) {
   #footer .copyright {
@@ -4049,8 +4049,8 @@ span#typed-slide-1 {
   cursor: pointer;
 }
 #portfolio .portfolio-item .portfolio-thumbnail:hover .top-thumbnail img {
-  -webkit-filter: blur(3px);
-  filter: blur(3px);
+  /* -webkit-filter: blur(3px);
+  filter: blur(3px); */
 }
 #portfolio .portfolio-item .portfolio-thumbnail:hover .botom-thumbnail {
   margin-bottom: -98px;
