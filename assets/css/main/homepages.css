@@ -3563,7 +3563,7 @@ select:-webkit-autofill:focus {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 400;
   font-family: "Saira";
   line-height: 1.9;
@@ -3739,7 +3739,13 @@ span#typed-slide-1 {
 }
 #about .about-blok .aboutinfo .about-img img {
   width: 100%;
+  filter: grayscale(1);
 }
+
+#about .about-blok .aboutinfo .about-img img:hover {
+  filter: none;
+}
+
 @media (max-width: 767px) {
   #about .about-blok .aboutinfo .about-descr {
     margin-top: 30px;
@@ -4523,7 +4529,7 @@ span#typed-slide-1 {
   font-family: "Saira";
   letter-spacing: 0.5px;
   color: #9da1a5;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
   font-size: 14px;
 }
