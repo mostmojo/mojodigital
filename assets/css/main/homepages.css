@@ -3719,7 +3719,7 @@ span#typed-slide-1 {
   content: "";
   height: 300px;
   width: 300px;
-  background: url(../../images/svg-icon/about-shape.svg) no-repeat;
+  background: url("../../images/svg-icon/about-shape.svg") no-repeat;
   background-repeat: no-repeat;
   bottom: -11%;
   left: -5%;
