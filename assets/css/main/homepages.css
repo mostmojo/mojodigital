@@ -3402,6 +3402,10 @@ h6 {
 	margin: 0;
 }
 
+h1 {
+	font-size: 14px;
+}
+
 h2 {
 	color: #333333;
 	font-weight: 600;
