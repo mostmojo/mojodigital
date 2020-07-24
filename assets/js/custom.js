@@ -442,49 +442,6 @@ function animar() {
 	document.getElementById("mce-responses").classList.remove("esconder");
 }
 
-// document.getElementById("mc-embedded-subscribe").onclick = function () {
-// 	animar();
-// };
-
 function close() {
 	document.getElementById("mce-responses").classList.add("esconder");
 }
-
-// document.getElementById("close").onclick = function () {
-// 	close();
-// };
-
-// document.getElementById("close").onclick = function () {
-// 	close();
-// };
-
-/* ================================= */
-/* :::::::: 8. Ajax mailchimp :::::: */
-/* ================================= */
-
-//     Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-$("#subscribe").ajaxChimp({
-	language: "eng",
-	url: "https://uxign.us18.list-manage.com/subscribe/post?u=88b2522a6203591b597a7e4e6&amp;id=1291144d60"
-});
-
-// Mailchimp translation
-//
-// Defaults:
-//'submit': 'Submitting...',
-//  0: 'We have sent you a confirmation email',
-//  1: 'Please enter a value',
-//  2: 'An email address must contain a single @',
-//  3: 'The domain portion of the email address is invalid (the portion after the @: )',
-//  4: 'The username portion of the email address is invalid (the portion before the @: )',
-//  5: 'This email address looks fake or invalid. Please enter a real email address'
-
-$.ajaxChimp.translations.eng = {
-	submit: '<i class="ion-ios-paperplane-outline submitting"></i> Sending...',
-	0: '<i class="ion-ios-star-outline"></i> Great! You will receive notification from us soon :)',
-	1: '<i class="ion-ios-close-outline"></i> You must enter a valid e-mail address.',
-	2: '<i class="fa fa-warning"></i> Sorry, but your E-mail address is not valid.',
-	3: '<i class="fa fa-warning"></i> Sorry, but your E-mail address is not valid.',
-	4: '<i class="fa fa-warning"></i> Sorry, but your E-mail address is not valid.',
-	5: '<i class="fa fa-warning"></i> Sorry, but your E-mail address is not valid.'
-};
