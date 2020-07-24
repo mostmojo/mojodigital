@@ -442,21 +442,21 @@ function animar() {
 	document.getElementById("mce-responses").classList.remove("esconder");
 }
 
-document.getElementById("mc-embedded-subscribe").onclick = function () {
-	animar();
-};
+// document.getElementById("mc-embedded-subscribe").onclick = function () {
+// 	animar();
+// };
 
 function close() {
 	document.getElementById("mce-responses").classList.add("esconder");
 }
 
-document.getElementById("close").onclick = function () {
-	close();
-};
+// document.getElementById("close").onclick = function () {
+// 	close();
+// };
 
-document.getElementById("close").onclick = function () {
-	close();
-};
+// document.getElementById("close").onclick = function () {
+// 	close();
+// };
 
 /* ================================= */
 /* :::::::: 8. Ajax mailchimp :::::: */
